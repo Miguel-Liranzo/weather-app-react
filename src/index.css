@@ -16,6 +16,10 @@ p {
   font-size: 1.6rem;
 }
 
+.subtitle {
+  font-size: 1.2rem;
+}
+
 h1 {
   font-size: 6rem;
 }
@@ -72,23 +76,21 @@ h1 {
   margin: 1rem auto;
 }
 
-.app .description {
-  position: relative;
-  right: -90%;
-  transform-origin: 0 0;
-  transform: rotate(270deg);
-}
 
 .app .bottom {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: 0.75rem auto;
+  padding: 0.5rem;
   border-radius: 12px;
   background-color: rgba(255,255,255,0.2);
   font-weight: 350;
+}
+
+.app .bottom p {
+  padding: 3px;
 }
 
 .bold {
