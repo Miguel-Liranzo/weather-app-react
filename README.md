@@ -1,1 +1,1 @@
- Obligatory weather app.
+Obligatory weather app every programmer creates.
